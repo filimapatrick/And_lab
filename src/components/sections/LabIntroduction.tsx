@@ -18,7 +18,7 @@ export default function LabIntroduction() {
                     <div className="w-16 h-1 bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto mb-8 rounded-full" />
 
                     <p className="text-xl md:text-2xl text-gray-800 leading-relaxed font-light">
-                        <span className="font-semibold text-cyan-700">The African NeuroData Lab</span> is a research laboratory based in Africa and dedicated to advancing neuroimaging, brain data science and responsible data governance through <span className="italic text-gray-600">locally led, globally connected research</span>.
+                        <span className="font-semibold text-cyan-700">The African NeuroData Research Lab (ANR)</span> is a research laboratory based in Africa and dedicated to advancing neuroimaging, brain data science and responsible data governance through <span className="italic text-gray-600">locally led, globally connected research</span>.
                     </p>
 
                     <p className="mt-6 text-lg md:text-xl text-gray-600 leading-relaxed">

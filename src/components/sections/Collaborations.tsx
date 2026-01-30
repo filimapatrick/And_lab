@@ -92,7 +92,7 @@ export default function Collaborations() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto mb-6 rounded-full" />
           <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-16">
-            AND Lab collaborates with leading international researchers and institutions to advance ethical and equitable brain research
+            ANR Lab collaborates with leading international researchers and institutions to advance ethical and equitable brain research
           </p>
         </motion.div>
 
@@ -213,7 +213,7 @@ export default function Collaborations() {
           <div className="bg-gradient-to-r from-cyan-50 to-teal-50 rounded-2xl p-10 border border-cyan-100">
             <h3 className="text-2xl font-bold text-gray-900 mb-3">Become a Collaborator</h3>
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
-              Interested in collaborating with AND Lab? We welcome partnerships that advance ethical and equitable brain research
+              Interested in collaborating with ANR Lab? We welcome partnerships that advance ethical and equitable brain research
             </p>
             <a
               href="#contact"

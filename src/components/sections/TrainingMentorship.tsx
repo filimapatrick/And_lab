@@ -43,7 +43,7 @@ export default function TrainingMentorship() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-teal-500 mx-auto mb-6 rounded-full" />
           <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-16">
-            The African NeuroData Lab is committed to training the next generation of African neuroscientists and brain data scientists
+            The African NeuroData Research Lab (ANR) is committed to training the next generation of African neuroscientists and brain data scientists
           </p>
         </motion.div>
 

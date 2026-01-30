@@ -29,7 +29,7 @@ export default function Navigation() {
                 <div className="flex items-center justify-between h-16">
                     <Link to="/" className="flex items-center space-x-3" onClick={() => setIsOpen(false)}>
                         <Brain className="w-8 h-8 text-cyan-600" />
-                        <span className="font-bold text-xl text-gray-900">AND Lab</span>
+                        <span className="font-bold text-xl text-gray-900">ANR Lab</span>
                     </Link>
 
                     {/* Desktop Menu */}

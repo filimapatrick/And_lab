@@ -30,7 +30,7 @@ export default function FundingSupport() {
           className="bg-gradient-to-br from-emerald-50 to-teal-50 rounded-2xl p-10 border border-emerald-100"
         >
           <p className="text-lg text-gray-700 leading-relaxed text-center">
-            Research at the African NeuroData Lab is supported through competitive grants, institutional support, and collaborative funding from national and international organizations.
+            Research at the African NeuroData Research Lab (ANR) is supported through competitive grants, institutional support, and collaborative funding from national and international organizations.
           </p>
         </motion.div>
       </div>

@@ -32,8 +32,8 @@ export default function About() {
                   <Brain className="w-6 h-6 text-white" />
                 </div>
                 <div>
-                  <h3 className="text-2xl font-bold text-gray-900 mb-2">African NeuroData Lab</h3>
-                  <p className="text-cyan-600 font-semibold">AND Lab</p>
+                  <h3 className="text-2xl font-bold text-gray-900 mb-2">African NeuroData Research Lab (ANR)</h3>
+                  <p className="text-cyan-600 font-semibold">ANR Lab</p>
                 </div>
               </div>
               <p className="text-lg text-gray-700 leading-relaxed">
