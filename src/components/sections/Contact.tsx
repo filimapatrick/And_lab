@@ -18,8 +18,8 @@ export default function Contact() {
             </div>
             <div className="flex items-center space-x-3">
               <Globe className="w-6 h-6 text-cyan-600" />
-              <a href="https://www.andlab.africa" className="text-lg text-gray-800 hover:text-cyan-600 transition-colors">
-                www.andlab.africa
+              <a href="https://africanneurodataresearch.org" className="text-lg text-gray-800 hover:text-cyan-600 transition-colors">
+                africanneurodataresearch.org
               </a>
             </div>
           </div>

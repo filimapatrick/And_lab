@@ -40,8 +40,7 @@ export default function Navigation() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <div className="flex items-center justify-between h-16">
                         <Link to="/" className="flex items-center space-x-3" onClick={() => setIsOpen(false)}>
-                            <img src={logo} alt="ANR Lab Logo" className="w-12 h-12" />
-                            <span className="font-bold text-xl text-gray-900">ANR Lab</span>
+                            <img src={logo} alt="ANR Lab Logo" className="w-32 h-32" />
                         </Link>
 
                         {/* Desktop Menu */}
@@ -134,13 +133,13 @@ export default function Navigation() {
                                     <span>anrlab.ng@gmail.com </span>
                                 </a>
                                 <a
-                                    href="https://www.andlab.africa"
+                                    href="https://africanneurodataresearch.org"
                                     target="_blank"
                                     rel="noreferrer"
                                     className="flex items-center gap-3 text-gray-700 hover:text-cyan-600 transition-colors"
                                 >
                                     <Globe className="w-5 h-5 text-cyan-700" />
-                                    <span>www.andlab.africa</span>
+                                    <span>africanneurodataresearch.org</span>
                                 </a>
                             </div>
 

@@ -4,6 +4,7 @@ import WhatWeDo from '../components/sections/WhatWeDo';
 import ResearchAreas from '../components/sections/ResearchAreas';
 import Projects from '../components/sections/Projects';
 import BrainAwarenessWeekGallery from '../components/sections/BrainAwarenessWeekGallery';
+import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
 
 const reveal = {
@@ -16,6 +17,12 @@ const reveal = {
 export default function HomePage() {
     return (
         <>
+            <SEO
+                title="African NeuroData Research Lab (ANR) | Brain Data Science in Africa"
+                description="ANR Lab advances ethical, reproducible neuroimaging and brain data science in Africa through research, collaboration, and training."
+                path="/"
+                includeOrganizationSchema
+            />
             <Hero />
             <motion.div {...reveal}>
                 <LabIntroduction />
