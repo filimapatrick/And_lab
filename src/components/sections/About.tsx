@@ -1,5 +1,6 @@
 import { GraduationCap, Brain, Shield, Database, Microscope } from 'lucide-react';
 import { motion } from 'framer-motion';
+import  logo from '/assets/logo.png';
 
 export default function About() {
   return (
@@ -28,9 +29,9 @@ export default function About() {
           >
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <div className="flex items-start space-x-4 mb-6">
-                <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-lg flex items-center justify-center flex-shrink-0">
-                  <Brain className="w-6 h-6 text-white" />
-                </div>
+                {/* <div className="w-12 h-12 bg-gradient-to-br from-cyan-500 to-teal-500 rounded-lg flex items-center justify-center flex-shrink-0"> */}
+                  <img src={logo} className="w-12 h-12 text-white" />
+                {/* </div> */}
                 <div>
                   <h3 className="text-2xl font-bold text-gray-900 mb-2">African NeuroData Research Lab (ANR)</h3>
                   <p className="text-cyan-600 font-semibold">ANR Lab</p>

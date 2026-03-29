@@ -55,12 +55,13 @@ export default function Hero() {
                 Explore Our Research
                 <ArrowRight className="ml-2 w-5 h-5" />
               </a>
-              <a
-                href="#contact"
+              <button
+                type="button"
+                onClick={() => window.dispatchEvent(new Event('open-contact-sidebar'))}
                 className="inline-flex items-center justify-center px-8 py-4 bg-white/10 backdrop-blur-sm text-white rounded-lg font-semibold hover:bg-white/20 transition-all border border-white/20"
               >
                 Collaborate With Us
-              </a>
+              </button>
             </div>
           </motion.div>
 
