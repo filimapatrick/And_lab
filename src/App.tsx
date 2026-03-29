@@ -6,6 +6,7 @@ import AboutPage from './pages/AboutPage';
 import CollaborationsPage from './pages/CollaborationsPage';
 import PublicationsPage from './pages/PublicationsPage';
 import NewsPage from './pages/NewsPage';
+import NotFoundPage from './pages/NotFoundPage';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
             <Route path="/collaborations" element={<CollaborationsPage />} />
             <Route path="/publications" element={<PublicationsPage />} />
             <Route path="/news" element={<NewsPage />} />
+            <Route path="*" element={<NotFoundPage />} />
           </Routes>
         </main>
         <Footer />

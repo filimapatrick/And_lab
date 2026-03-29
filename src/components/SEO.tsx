@@ -6,6 +6,7 @@ type SEOProps = {
   path: string;
   image?: string;
   type?: 'website' | 'article';
+  robots?: string;
   includeOrganizationSchema?: boolean;
 };
 
@@ -18,6 +19,7 @@ export default function SEO({
   path,
   image = '/assets/logo.jpeg',
   type = 'website',
+  robots = 'index,follow',
   includeOrganizationSchema = false,
 }: SEOProps) {
   const normalizedPath = path.startsWith('/') ? path : `/${path}`;
@@ -43,6 +45,7 @@ export default function SEO({
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
+      <meta name="robots" content={robots} />
       <link rel="canonical" href={canonical} />
 
       <meta property="og:type" content={type} />
