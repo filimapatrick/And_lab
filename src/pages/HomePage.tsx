@@ -4,6 +4,7 @@ import WhatWeDo from '../components/sections/WhatWeDo';
 import ResearchAreas from '../components/sections/ResearchAreas';
 import Projects from '../components/sections/Projects';
 import BrainAwarenessWeekGallery from '../components/sections/BrainAwarenessWeekGallery';
+import FundingSupport from '../components/sections/FundingSupport';
 import SEO from '../components/SEO';
 import { motion } from 'framer-motion';
 
@@ -12,7 +13,7 @@ const reveal = {
     whileInView: { opacity: 1, y: 0 },
     transition: { duration: 0.65, ease: 'easeOut' },
     viewport: { once: true, amount: 0.18 },
-};
+} as const;
 
 export default function HomePage() {
     return (
@@ -38,6 +39,9 @@ export default function HomePage() {
             </motion.div>
             <motion.div {...reveal}>
                 <BrainAwarenessWeekGallery />
+            </motion.div>
+            <motion.div {...reveal}>
+                <FundingSupport />
             </motion.div>
         </>
     );
