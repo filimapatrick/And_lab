@@ -1,4 +1,4 @@
-import { ArrowRight, Users } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Team() {
@@ -155,13 +155,14 @@ export default function Team() {
             <p className="text-gray-700 mb-6 max-w-2xl mx-auto">
               We're always looking for passionate researchers and students interested in neuroimaging and brain data science
             </p>
-            <a
-              href="#contact"
+            <button
+              type="button"
+              onClick={() => window.dispatchEvent(new Event('open-contact-sidebar'))}
               className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-cyan-500 to-teal-500 text-white rounded-lg font-semibold hover:from-cyan-600 hover:to-teal-600 transition-all shadow-lg hover:shadow-cyan-500/50"
             >
               Get In Touch
               <ArrowRight className="ml-2 w-5 h-5" />
-            </a>
+            </button>
           </div>
         </motion.div>
       </div>
