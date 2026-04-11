@@ -47,7 +47,7 @@ export default function Footer() {
                     <div>
                         <h3 className="text-xl font-semibold mb-4">Contact</h3>
                         <ul className="space-y-2 text-slate-200">
-                            <li>info@anrlab.org</li>
+                            <li>anrlab.ng@gmail.com</li>
                             <li>University of Port Harcourt</li>
                             <li>Port Harcourt, Nigeria</li>
                         </ul>
