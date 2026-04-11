@@ -122,7 +122,7 @@ export default function FundingSupport() {
         </>
       )}
 
-      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-50 via-cyan-50/40 to-teal-50/30">
+      <section className="py-24 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900">
         <div className="max-w-7xl mx-auto">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -135,10 +135,10 @@ export default function FundingSupport() {
             <Send className="w-4 h-4" />
             <span>Support ANR Lab</span>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-bold text-slate-900 mb-4 text-center">
+          <h2 className="text-4xl sm:text-5xl font-bold text-white mb-4 text-center">
             Invest in African Neuroscience
           </h2>
-          <p className="max-w-3xl mx-auto text-lg text-slate-600 leading-relaxed">
+          <p className="max-w-3xl mx-auto text-lg text-slate-200 leading-relaxed">
             Join us in advancing neuroscience research and education across Africa through strategic funding and partnership.
           </p>
         </motion.div>
@@ -150,7 +150,7 @@ export default function FundingSupport() {
             viewport={{ once: true, amount: 0.2 }}
             transition={{ duration: 0.6, ease: 'easeOut' }}
           >
-            <h3 className="text-3xl font-bold text-slate-900 mb-6">Funding Opportunities</h3>
+            <h3 className="text-3xl font-bold text-white mb-6">Funding Opportunities</h3>
             <div className="space-y-4">
               {opportunities.map((item) => (
                 <article
