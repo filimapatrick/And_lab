@@ -102,26 +102,26 @@ export default function Contact() {
       <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-12 text-center">Contact</h2>
-        <div className="bg-gradient-to-br from-cyan-50 to-blue-50 rounded-2xl p-10 shadow-xl">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">African NeuroData Research Lab</h3>
-          <p className="text-lg text-gray-700 mb-8">University of Port Harcourt, Nigeria</p>
+        <div className="bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900 rounded-2xl p-10 shadow-xl">
+          <h3 className="text-2xl font-bold text-white mb-6">African NeuroData Research Lab</h3>
+          <p className="text-lg text-slate-200 mb-8">University of Port Harcourt, Nigeria</p>
 
           <div className="space-y-4 mb-8">
             <div className="flex items-center space-x-3">
-              <Mail className="w-6 h-6 text-cyan-600" />
-              <a href="mailto:anrlab.ng@gmail.com" className="text-lg text-gray-800 hover:text-cyan-600 transition-colors">
+              <Mail className="w-6 h-6 text-cyan-400" />
+              <a href="mailto:anrlab.ng@gmail.com" className="text-lg text-slate-200 hover:text-cyan-300 transition-colors">
                anrlab.ng@gmail.com 
               </a>
             </div>
             <div className="flex items-center space-x-3">
-              <Globe className="w-6 h-6 text-cyan-600" />
-              <a href="https://africanneurodataresearch.org" className="text-lg text-gray-800 hover:text-cyan-600 transition-colors">
+              <Globe className="w-6 h-6 text-cyan-400" />
+              <a href="https://africanneurodataresearch.org" className="text-lg text-slate-200 hover:text-cyan-300 transition-colors">
                 africanneurodataresearch.org
               </a>
             </div>
           </div>
 
-          <p className="text-gray-700 text-lg leading-relaxed">
+          <p className="text-slate-200 text-lg leading-relaxed">
             Interested in collaborating, training, or joining the lab?<br />
             Get in touch—we'd love to hear from you.
           </p>
@@ -129,7 +129,7 @@ export default function Contact() {
           <form className="mt-10 space-y-5" onSubmit={handleSubmit}>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-5">
               <div>
-                <label htmlFor="contact-name" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="contact-name" className="block text-sm font-medium text-slate-200 mb-1">
                   Full Name
                 </label>
                 <input
@@ -137,13 +137,13 @@ export default function Contact() {
                   name="name"
                   type="text"
                   required
-                  className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
+                  className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/30"
                   placeholder="Your full name"
                 />
               </div>
 
               <div>
-                <label htmlFor="contact-email" className="block text-sm font-medium text-gray-700 mb-1">
+                <label htmlFor="contact-email" className="block text-sm font-medium text-slate-200 mb-1">
                   Email
                 </label>
                 <input
@@ -151,14 +151,14 @@ export default function Contact() {
                   name="email"
                   type="email"
                   required
-                  className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
+                  className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/30"
                   placeholder="you@example.com"
                 />
               </div>
             </div>
 
             <div>
-              <label htmlFor="contact-subject" className="block text-sm font-medium text-gray-700 mb-1">
+              <label htmlFor="contact-subject" className="block text-sm font-medium text-slate-200 mb-1">
                 Subject
               </label>
               <input
@@ -166,13 +166,13 @@ export default function Contact() {
                 name="subject"
                 type="text"
                 required
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
+                className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/30"
                 placeholder="Subject"
               />
             </div>
 
             <div>
-              <label htmlFor="contact-message" className="block text-sm font-medium text-gray-700 mb-1">
+              <label htmlFor="contact-message" className="block text-sm font-medium text-slate-200 mb-1">
                 Message
               </label>
               <textarea
@@ -180,7 +180,7 @@ export default function Contact() {
                 name="message"
                 rows={5}
                 required
-                className="w-full rounded-lg border border-gray-300 bg-white px-3 py-2 text-gray-900 placeholder:text-gray-400 focus:border-cyan-500 focus:outline-none focus:ring-2 focus:ring-cyan-200"
+                className="w-full rounded-lg border border-slate-600 bg-slate-800 px-3 py-2 text-white placeholder:text-slate-400 focus:border-cyan-400 focus:outline-none focus:ring-2 focus:ring-cyan-400/30"
                 placeholder="Write your message"
               />
             </div>
@@ -196,7 +196,7 @@ export default function Contact() {
             {status && (
               <p
                 className={`text-sm font-medium ${
-                  status.type === 'success' ? 'text-emerald-700' : 'text-red-600'
+                  status.type === 'success' ? 'text-emerald-300' : 'text-red-400'
                 }`}
                 role="status"
               >

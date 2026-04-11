@@ -30,9 +30,13 @@ export default function WhatWeDo() {
   ];
 
   return (
-    <section className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-gray-50 to-slate-50">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-16 text-center">What We Do</h2>
+    <section className="relative overflow-hidden py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900">
+      <div className="absolute inset-0 opacity-20" aria-hidden="true">
+        <div className="h-full w-full [background-image:radial-gradient(circle_at_1px_1px,rgba(56,189,248,0.35)_1px,transparent_0)] [background-size:30px_30px]" />
+      </div>
+
+      <div className="relative max-w-7xl mx-auto">
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-16 text-center">What We Do</h2>
         <div className="grid md:grid-cols-2 gap-8">
           {cards.map((card, index) => (
             <div
