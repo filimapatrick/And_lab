@@ -20,7 +20,6 @@ export default function Projects() {
   const rightHighlights = [
     { icon: Beaker, title: 'Report Efficiency', text: projects[2] },
     { icon: Brain, title: 'Complete Cases', text: projects[3] },
-    { icon: Database, title: 'Our Equipment', text: projects[4] }
   ];
 
   return (
