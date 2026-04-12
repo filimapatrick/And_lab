@@ -11,7 +11,7 @@ type SEOProps = {
 };
 
 const SITE_NAME = 'African NeuroData Research Lab (ANR)';
-const SITE_URL = 'https://africanneurodataresearch.org';
+const SITE_URL = 'https://www.africanneurodataresearch.org';
 
 export default function SEO({
   title,
