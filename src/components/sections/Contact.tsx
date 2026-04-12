@@ -99,9 +99,9 @@ export default function Contact() {
         </>
       )}
 
-      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-white">
+      <section id="contact" className="py-20 px-4 sm:px-6 lg:px-8 bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl sm:text-5xl font-bold text-gray-900 mb-12 text-center">Contact</h2>
+        <h2 className="text-4xl sm:text-5xl font-bold text-white mb-12 text-center">Contact</h2>
         <div className="bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900 rounded-2xl p-10 shadow-xl">
           <h3 className="text-2xl font-bold text-white mb-6">African NeuroData Research Lab</h3>
           <p className="text-lg text-slate-200 mb-8">University of Port Harcourt, Nigeria</p>

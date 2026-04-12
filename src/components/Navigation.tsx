@@ -203,9 +203,9 @@ export default function Navigation() {
                         onClick={() => setIsContactOpen(false)}
                         className="fixed inset-0 bg-black/50 z-[90]"
                     />
-                    <aside className="fixed inset-y-0 right-0 w-full max-w-md overflow-y-auto border-l border-gray-200 bg-white shadow-2xl z-[100] p-6 sm:p-8">
+                    <aside className="fixed inset-y-0 right-0 w-full max-w-md overflow-y-auto border-l border-gray-200 bg-gradient-to-br from-slate-900 via-sky-900 to-cyan-900 shadow-2xl z-[100] p-6 sm:p-8">
                         <div className="flex items-center justify-between mb-8 pb-4 border-b border-gray-100">
-                            <h2 className="text-2xl font-bold text-gray-900 tracking-tight">Contact</h2>
+                            <h2 className="text-2xl font-bold text-white tracking-tight">Contact</h2>
                             <button
                                 onClick={() => setIsContactOpen(false)}
                                 className="p-2 rounded-md text-gray-500 hover:text-gray-700 hover:bg-gray-100"
@@ -218,7 +218,7 @@ export default function Navigation() {
                         <div className="space-y-6 text-gray-900">
                             <div>
                                 <p className="text-xl font-semibold text-gray-900">African NeuroData Research Lab</p>
-                                <p className="text-gray-600 mt-1">University of Port Harcourt, Nigeria</p>
+                                <p className="text-white mt-1">University of Port Harcourt, Nigeria</p>
                             </div>
 
                             <div className="space-y-3 rounded-xl border border-cyan-100 bg-cyan-50 p-4">
@@ -240,13 +240,13 @@ export default function Navigation() {
                                 </a>
                             </div>
 
-                            <p className="text-gray-700 leading-relaxed">
+                            <p className="text-white-700 leading-relaxed">
                                 Interested in collaborating, training, or joining the lab? Reach out and we will get back to you.
                             </p>
 
                             <form className="space-y-4" onSubmit={handleSidebarSubmit}>
                                 <div>
-                                    <label htmlFor="sidebar-contact-name" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="sidebar-contact-name" className="block text-sm font-medium text-white mb-1">
                                         Full Name
                                     </label>
                                     <input
@@ -260,7 +260,7 @@ export default function Navigation() {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="sidebar-contact-email" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="sidebar-contact-email" className="block text-sm font-medium text-white mb-1">
                                         Email
                                     </label>
                                     <input
@@ -274,7 +274,7 @@ export default function Navigation() {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="sidebar-contact-subject" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="sidebar-contact-subject" className="block text-sm font-medium text-white mb-1">
                                         Subject
                                     </label>
                                     <input
@@ -288,7 +288,7 @@ export default function Navigation() {
                                 </div>
 
                                 <div>
-                                    <label htmlFor="sidebar-contact-message" className="block text-sm font-medium text-gray-700 mb-1">
+                                    <label htmlFor="sidebar-contact-message" className="block text-sm font-medium text-white mb-1">
                                         Message
                                     </label>
                                     <textarea

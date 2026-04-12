@@ -88,10 +88,8 @@ export default function Hero() {
               <div className="w-[500px] h-[500px] bg-gradient-radial from-cyan-500/30 via-teal-500/20 to-transparent rounded-full blur-3xl" />
             </motion.div>
 
-            {/* Floating brain image with idle animation */}
-            <motion.img
-              src="/assets/hero-brain.png"
-              alt="Neuroscience Brain Visualization"
+            {/* Floating background-image panel with soft edge blending */}
+            <motion.div
               animate={{
                 y: [0, -12, 0]
               }}
@@ -100,8 +98,17 @@ export default function Hero() {
                 repeat: Infinity,
                 ease: "easeInOut"
               }}
-              className="relative z-10 w-full max-w-[600px] h-auto drop-shadow-2xl"
-            />
+              className="relative z-10 w-full max-w-[600px]"
+            >
+              <div
+                role="img"
+                aria-label="Neuroscience Brain Visualization"
+                className="relative aspect-[4/3] w-full rounded-2xl bg-cover bg-center bg-no-repeat shadow-[0_45px_90px_-35px_rgba(6,182,212,0.45),0_20px_45px_-20px_rgba(2,6,23,0.85)]"
+                style={{ backgroundImage: 'url(/assets/hero_image-removebg-preview.png)' }}
+              >
+                <div className="pointer-events-none absolute inset-0 rounded-2xl shadow-[inset_0_0_90px_rgba(11,28,45,0.35)]" />
+              </div>
+            </motion.div>
           </motion.div>
         </div>
       </div>

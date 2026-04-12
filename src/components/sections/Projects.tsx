@@ -88,7 +88,7 @@ export default function Projects() {
             {rightHighlights.map((item) => (
               <article key={item.text} className="flex items-start gap-4 rounded-2xl bg-white/95 p-4 shadow-lg shadow-slate-900/20">
                 <div className="w-14 h-14 rounded-full bg-cyan-100 text-cyan-700 flex items-center justify-center flex-shrink-0">
-                  <item.icon className="w-7 h-7" />
+                  <item.icon className="w-7 h-7"/>
                 </div>
                 <div className="flex-1 border-b border-slate-200 pb-5">
                   <h3 className="text-xl font-semibold text-slate-900 mb-2 leading-snug">{item.title}</h3>
