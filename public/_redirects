@@ -1,9 +1,2 @@
-# Redirect HTTP to HTTPS
-http://www.africanneurodataresearch.org/* https://www.africanneurodataresearch.org/:splat 301!
-http://africanneurodataresearch.org/* https://www.africanneurodataresearch.org/:splat 301!
-
-# Redirect non-www to www
-https://africanneurodataresearch.org/* https://www.africanneurodataresearch.org/:splat 301!
-
 # Single page app routing
 /* /index.html 200
