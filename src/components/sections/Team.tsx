@@ -32,7 +32,13 @@ export default function Team() {
       name: "Goodness Naabie",
       role: "Graduate Student",
       image: "/assets/team/goodness.jpg"
-    }
+    },
+      {
+      name: "Joseph Duruh",
+      role: "Research Intern",
+      image: "/assets/team/duruh.jpg"
+    },
+     
   ];
 
   return (
