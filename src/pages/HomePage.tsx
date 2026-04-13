@@ -3,6 +3,7 @@ import LabIntroduction from '../components/sections/LabIntroduction';
 import WhatWeDo from '../components/sections/WhatWeDo';
 import ResearchAreas from '../components/sections/ResearchAreas';
 import Projects from '../components/sections/Projects';
+import MindMetricHighlight from '../components/sections/MindMetricHighlight';
 import BrainAwarenessWeekGallery from '../components/sections/BrainAwarenessWeekGallery';
 import FundingSupport from '../components/sections/FundingSupport';
 import SEO from '../components/SEO';
@@ -36,6 +37,9 @@ export default function HomePage() {
             </motion.div>
             <motion.div {...reveal}>
                 <Projects />
+            </motion.div>
+            <motion.div {...reveal}>
+                <MindMetricHighlight />
             </motion.div>
             <motion.div {...reveal}>
                 <BrainAwarenessWeekGallery />
