@@ -1,4 +1,4 @@
-import { Share2 } from 'lucide-react';
+import { Linkedin } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Team() {
@@ -6,37 +6,44 @@ export default function Team() {
     {
       name: "Dr. Eberechi Wogu",
       role: "Principal Investigator",
-      image: "/assets/team/Ebere.png"
+      image: "/assets/team/Ebere.png",
+      Linkedin: "https://www.linkedin.com/in/eberechi-wogu-55293819a/"
     },
     {
       name: "Patrick Filima",
-      role: "Graduate Student",
-      image: "/assets/team/patrick.jpg"
+      role: "Research software Developer",
+      image: "/assets/team/patrick.jpg",
+      Linkedin: "https://www.linkedin.com/in/patrick-filima-91450817b/"
     },
     {
       name: "Emmanuella Uchechi",
       role: "Research Assistant",
-      image: "/assets/team/Uchechi.jpg"
+      image: "/assets/team/Uchechi.jpg",
+      Linkedin: ""
     },
     {
       name: "Barisua Nsaanee",
       role: "Graduate Student",
-      image: "/assets/team/Barisua.jpg"
+      image: "/assets/team/Barisua.jpg",
+      Linkedin: "https://www.linkedin.com/in/barisua-nsaanee/"
     },
     {
       name: "Smart Oparaugo",
       role: "Research Assistant",
-      image: "/assets/team/Smart.jpg"
+      image: "/assets/team/Smart.jpg",
+      Linkedin: "https://www.linkedin.com/in/smart-chidi-oparaugo-275439144/"
     },
     {
       name: "Goodness Naabie",
       role: "Graduate Student",
-      image: "/assets/team/goodness.jpg"
+      image: "/assets/team/goodness.jpg",
+      Linkedin: ""
     },
       {
       name: "Joseph Duruh",
       role: "Research Intern",
-      image: "/assets/team/duruh.jpg"
+      image: "/assets/team/duruh.jpg",
+      Linkedin: "https://www.linkedin.com/in/joseph-duruh-124b78337/"
     },
      
   ];
@@ -82,13 +89,17 @@ export default function Team() {
                     </div>
                   )}
 
-                  <button
-                    type="button"
-                    aria-label={`Share profile of ${member.name}`}
-                    className="absolute right-3 bottom-3 w-9 h-9 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 text-white flex items-center justify-center shadow-md shadow-cyan-500/30"
-                  >
-                    <Share2 className="w-4 h-4" />
-                  </button>
+                  {member.Linkedin && (
+                    <a
+                      href={member.Linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      aria-label={`Visit ${member.name}'s LinkedIn profile`}
+                      className="absolute right-3 bottom-3 w-9 h-9 rounded-full bg-gradient-to-r from-cyan-500 to-teal-500 text-white flex items-center justify-center shadow-md shadow-cyan-500/30"
+                    >
+                      <Linkedin className="w-4 h-4" />
+                    </a>
+                  )}
                 </div>
 
                 <div className="px-3 pt-5 pb-4">
