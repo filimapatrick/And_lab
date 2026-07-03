@@ -36,16 +36,16 @@ export default function Team() {
     {
       name: "Goodness Naabie",
       role: "Graduate Student",
-      image: "/assets/team/goodness.jpg",
-      Linkedin: ""
+      image: "/assets/team/Goody.jpg",
+      Linkedin: "https://www.linkedin.com/in/naabiae-goodness-17aa4a247?utm_source=share_via&utm_content=profile&utm_medium=member_android"
     },
-      {
+    {
       name: "Joseph Duruh",
       role: "Research Intern",
       image: "/assets/team/duruh.jpg",
       Linkedin: "https://www.linkedin.com/in/joseph-duruh-124b78337/"
     },
-     
+
   ];
 
   return (
