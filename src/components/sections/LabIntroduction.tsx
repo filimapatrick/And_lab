@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion';
-import { Brain, Database, Network } from 'lucide-react';
+import { Database, Network } from 'lucide-react';
 
 export default function LabIntroduction() {
     const highlights = [

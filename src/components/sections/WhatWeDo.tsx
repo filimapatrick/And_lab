@@ -1,5 +1,4 @@
 import { Shield, Database, Brain, Users } from 'lucide-react';
-import { motion } from 'framer-motion';
 
 export default function WhatWeDo() {
   const cards = [

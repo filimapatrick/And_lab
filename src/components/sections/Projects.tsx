@@ -1,4 +1,4 @@
-import { Beaker, Brain, CheckCircle2, Database } from 'lucide-react';
+import { Beaker, Brain, CheckCircle2 } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 export default function Projects() {
